@@ -1,8 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { InicioComponent } from './inicio/inicio.component';
+
 import { GaleriaComponent } from './galeria/galeria.component';
 import { CarruselComponent } from './carrusel/carrusel.component';
+import { InicioComponent } from './modules/inicio/pages/inicio/inicio.component';
 
 const routes: Routes = [
   {path:"inicio",component:InicioComponent},
