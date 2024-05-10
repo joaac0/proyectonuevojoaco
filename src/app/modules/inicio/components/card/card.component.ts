@@ -12,6 +12,7 @@ import { Animal } from 'src/app/models/animal';
 export class CardComponent {
 public info: Animal[];
 
+
 constructor(){
 this.info=[
   {

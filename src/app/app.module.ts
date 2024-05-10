@@ -6,9 +6,8 @@ import { AppComponent } from './app.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { GaleriaComponent } from './galeria/galeria.component';
 import { CarruselComponent } from './carrusel/carrusel.component';
-import { NavbarComponent } from './modules/shared/components/navbar/navbar.component';
-import { FooterComponent } from './modules/shared/components/footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { SharedModule } from './modules/shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -16,13 +15,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     InicioComponent,
     GaleriaComponent,
     CarruselComponent,
-    NavbarComponent,
-    FooterComponent
+  
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]
