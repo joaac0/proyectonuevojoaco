@@ -6,9 +6,7 @@ const routes: Routes = [
   {
     path:"producto",component:ProductoComponent
   },
-  {
-    
-  }
+ 
 ];
 
 @NgModule({

@@ -23,6 +23,22 @@ this.info=[
     imagen:"https://i.pinimg.com/200x150/3f/2a/c5/3f2ac5cfca2d6dc4cb66a3cdaf974342.jpg",
     alt:"pato detective"
   },
+  {
+    id:"",
+    nombre:"agente pe",
+    raza:"ornitorrinco",
+    edad:6,
+    imagen:"https://images3.memedroid.com/images/UPLOADED536/662f1514ca116.jpeg",
+    alt:"ornitorrinco agente"
+  },
+  {
+    id:"",
+    nombre:"agente pe",
+    raza:"ornitorrinco",
+    edad:6,
+    imagen:"https://images3.memedroid.com/images/UPLOADED536/662f1514ca116.jpeg",
+    alt:"ornitorrinco agente"
+  }
   
 ]
 }
